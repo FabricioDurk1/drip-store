@@ -1,9 +1,10 @@
 import './productCard.css';
 
-const ProductCard = ({image, description, name, price, priceDiscount}) => {
+const ProductCard = ({image, description, name, price, priceDiscount, children}) => {
     return ( 
         <div className="card-border">
             <div className="image-border">
+                {children}
                 <img src={image} width="292" height="321" alt="" /> 
             </div>
             <div className="caption">
