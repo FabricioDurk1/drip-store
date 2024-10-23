@@ -1,14 +1,20 @@
-const ProductCard = ({image, name, price, priceDiscount}) => {
-    return ( 
-        <>
-            <img src={image} alt="" />
-            <h1>{name}</h1>
-            <ul>
-                <li>{price}</li>
-                <li>{priceDiscount}</li>
-            </ul>
-        </>
+import './productCard.css';
 
+const ProductCard = ({image, description, name, price, priceDiscount}) => {
+    return ( 
+        <div className="card-border">
+            <div className="image-border">
+                <img src={image} width="292" height="321" alt="" /> 
+            </div>
+            <div className="caption">
+                <p className='description'>{description}</p>
+                <h1>{name}</h1>
+                <ul>
+                    <li className='price'>{price}</li>
+                    <li className='priceDiscount'>{priceDiscount}</li>
+                </ul>
+            </div>
+        </div>
      );
 }
  

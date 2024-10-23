@@ -5,17 +5,15 @@ import "primeicons/primeicons.css";
 
 const Section = ({title, link, children}) => {
     return (
-        <>
         <section>
             <ul>
                 <li className='title'>{title}</li>
-                <li className='show-more'><a href={link}>Ver todos</a></li>                
+                <li className='show-more'><a href={link}>Ver todos<img src='./images/arrow24px.svg'/></a></li>                
             </ul>
-            <div>
+            <div className='card-section'>
                 {children}
             </div>
         </section>
-        </>
      );
 }
  

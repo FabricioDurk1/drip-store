@@ -67,5 +67,17 @@ button:focus-visible {
   }
 } */
 :root{
-  background: #F5F5F5;
+  --dark-gray: #1F1F1F;
+  --dark-gray-2: #474747;
+  --dark-gray-3: #666666;
+  --light-gray: #8F8F8F;
+  --light-gray-2: #CCCCCC;
+  --light-gray-3: #f5f5f5;
+  
+  --primary: #C92071;
+  --secondary: #B5B6F2;
+  --tertiary: #991956;
+
+
+  background-color: var(--light-gray-3);
 }

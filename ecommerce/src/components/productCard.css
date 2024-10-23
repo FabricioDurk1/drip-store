@@ -1,0 +1,37 @@
+.card-border{
+    width: 292px;
+    height: 439px;
+    margin: 0;
+    /* gap: 0px; */
+    /* opacity: 0px; */
+    text-align: start;
+
+}
+
+.image-border{
+    background-color: white;
+    width: 292px;
+    height: 321px;
+    border-radius: 4px;
+
+    img{
+        border: 1px solid red;
+    }
+}
+
+.caption {
+    .description {
+        margin: 5px 0;
+    }
+    h1{
+        margin: 5px 0;
+    }
+    ul{
+        margin: 0;
+        padding: 0;
+
+        .price {
+            color: var(--dark-gray);
+        }
+    }
+}

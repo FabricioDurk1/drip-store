@@ -9,69 +9,77 @@ const App = () => {
       title={"Produtos em alta"}
       link={"Ver todos"}
     >
-      <div class="grid">
-        <div class="col">
-            <div class="text-center p-3 border-round-sm font-bold"><ProductCard
+      <div className="grid">
+        <div className="col" style={{display:"flex", justifyContent:"center"}}>
+            <div className="text-center align-items-center p-0 border-round font-bold"><ProductCard
               image={"./images/product.svg"}
-              name={"Tênis"}
+              description={"Tênis"}
+              name={"K-Swiss V8 - Masculino"}
               price={"$200"}
               priceDiscount={"$100"}
             /></div>
         </div>
-        <div class="col">
-            <div class="text-center p-3 border-round-sm font-bold "><ProductCard
+        <div className="col" style={{display:"flex", justifyContent:"center"}}>
+            <div className="text-center align-items-center p-0 border-round font-bold "><ProductCard
               image={"./images/product.svg"}
-              name={"Tênis"}
+              description={"Tênis"}
+              name={"K-Swiss V8 - Masculino"}
               price={"$200"}
               priceDiscount={"$100"}
             /></div>
         </div>
-        <div class="col">
-            <div class="text-center p-3 border-round-sm font-bold "><ProductCard
+        <div className="col" style={{display:"flex", justifyContent:"center"}}>
+            <div className="text-center align-items-center p-0 border-round font-bold "><ProductCard
               image={"./images/product.svg"}
-              name={"Tênis"}
+              description={"Tênis"}
+              name={"K-Swiss V8 - Masculino"}
               price={"$200"}
               priceDiscount={"$100"}
             /></div>
         </div>
-        <div class="col">
-            <div class="text-center p-3 border-round-sm font-bold "><ProductCard
+        <div className="col" style={{display:"flex", justifyContent:"center"}}>
+            <div className="text-center align-items-center p-0 border-round font-bold "><ProductCard
               image={"./images/product.svg"}
-              name={"Tênis"}
+              description={"Tênis"}
+              name={"K-Swiss V8 - Masculino"}
               price={"$200"}
               priceDiscount={"$100"}
             /></div>
         </div>
       </div>
-      <div class="grid">
-        <div class="col">
-            <div class="text-center p-3 border-round-sm font-bold"><ProductCard
+      <div className="grid" style={{display:"flex", justifyContent:"center"}}>
+        <div className="col">
+            <div className="text-center align-items-center p-0 border-round font-bold"><ProductCard
               image={"./images/product.svg"}
-              name={"Tênis"}
+              description={"Tênis"}
+              name={"K-Swiss V8 - Masculino"}
               price={"$200"}
               priceDiscount={"$100"}
             /></div>
         </div>
-        <div class="col">
-            <div class="text-center p-3 border-round-sm font-bold "><ProductCard
+        <div className="col" style={{display:"flex", justifyContent:"center"}}>
+            <div className="text-center align-items-center p-0 border-round font-bold "><ProductCard
               image={"./images/product.svg"}
-              name={"Tênis"}
+              description={"Tênis"}
+              name={"K-Swiss V8 - Masculino"}
               price={"$200"}
               priceDiscount={"$100"}
             /></div>
         </div>
-        <div class="col">
-            <div class="text-center p-3 border-round-sm font-bold "><ProductCard
+        <div className="col" style={{display:"flex", justifyContent:"center"}}>
+            <div className="text-center align-items-center p-0 border-round font-bold "><ProductCard
               image={"./images/product.svg"}
-              name={"Tênis"}
+              description={"Tênis"}
+              name={"K-Swiss V8 - Masculino"}
               price={"$200"}
               priceDiscount={"$100"}
             /></div>
         </div>
-        <div class="col">
-            <div class="text-center p-3 border-round-sm font-bold "><ProductCard
+        <div className="col" style={{display:"flex", justifyContent:"center"}}>
+            <div className="text-center align-items-center p-0 border-round font-bold "><ProductCard
               image={"./images/product.svg"}
-              name={"Tênis"}
+              description={"Tênis"}
+              name={"K-Swiss V8 - Masculino"}
               price={"$200"}
               priceDiscount={"$100"}
             /></div>
