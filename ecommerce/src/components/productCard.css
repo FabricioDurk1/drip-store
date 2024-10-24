@@ -37,6 +37,11 @@
             font-size: 24px;
         }
 
+        .price-with-discount{
+            color:var(--light-gray);
+            text-decoration: line-through;
+        }
+
         .priceDiscount {
             color: var(--dark-gray);
             font-size: 24px;

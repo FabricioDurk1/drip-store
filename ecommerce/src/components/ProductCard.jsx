@@ -11,7 +11,9 @@ const ProductCard = ({image, description, name, price, priceDiscount, children})
                 <p className='description'>{description}</p>
                 <h1>{name}</h1>
                 <ul>
-                    <li className='price'>{price}</li>
+                    <li className='price'>
+                        <span className={`price ${priceDiscount ? 'price-with-discount' : ''}`}>{price}</span>
+                    </li>
                     <li className='priceDiscount'>{priceDiscount}</li>
                 </ul>
             </div>
