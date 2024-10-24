@@ -11,7 +11,7 @@
         "id": 2,
         "image": "./images/product.svg",
         "description": "Tênis",
-        " name": "K-Swiss V8 - Masculino",
+        "name": "K-Swiss V8 - Masculino",
         "price": "$200",
         "priceDiscount": "$100"
     },
@@ -19,7 +19,7 @@
         "id": 3,
         "image": "./images/product.svg",
         "description": "Tênis",
-        " name": "K-Swiss V8 - Masculino",
+        "name": "K-Swiss V8 - Masculino",
         "price": "$200",
         "priceDiscount": null
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "image": "./images/product.svg",
         "description": "Tênis",
-        " name": "K-Swiss V8 - Masculino",
+        "name": "K-Swiss V8 - Masculino",
         "price": "$200",
         "priceDiscount": null
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "image": "./images/product.svg",
         "description": "Tênis",
-        " name": "K-Swiss V8 - Masculino",
+        "name": "K-Swiss V8 - Masculino",
         "price": "$200",
         "priceDiscount": null
     },
@@ -43,7 +43,7 @@
         "id": 6,
         "image": "./images/product.svg",
         "description": "Tênis",
-        " name": "K-Swiss V8 - Masculino",
+        "name": "K-Swiss V8 - Masculino",
         "price": "$200",
         "priceDiscount": null
     },
@@ -51,7 +51,7 @@
         "id": 7,
         "image": "./images/product.svg",
         "description": "Tênis",
-        " name": "K-Swiss V8 - Masculino",
+        "name": "K-Swiss V8 - Masculino",
         "price": "$200",
         "priceDiscount": null
     },
@@ -59,7 +59,7 @@
         "id": 8,
         "image": "./images/product.svg",
         "description": "Tênis",
-        " name": "K-Swiss V8 - Masculino",
+        "name": "K-Swiss V8 - Masculino",
         "price": "$200",
         "priceDiscount": null
     }
