@@ -1,0 +1,50 @@
+.card-border{
+    width: 292px;
+    height: 439px;
+    margin: 0;
+    text-align: start;
+
+}
+
+.image-border{
+    position: relative;
+    background-color: white;
+    width: 292px;
+    height: 321px;
+    border-radius: 4px;
+    margin-bottom: 18px;
+    box-shadow: 10px 10px 20px rgba(165, 165, 165, 0.2);
+}
+
+.caption {
+    .description {
+        margin: 5px 0;
+        color: var(--light-gray);
+        font-size: 12px;
+    }
+    h1{
+        color: var(--dark-gray-2);
+        margin: 5px 0;
+    }
+    ul{
+        margin: 0;
+        padding: 0;
+        justify-self: start;
+        gap: 5px;
+
+        .price {
+            color: var(--dark-gray);
+            font-size: 24px;
+        }
+
+        .price-with-discount{
+            color:var(--light-gray);
+            text-decoration: line-through;
+        }
+
+        .priceDiscount {
+            color: var(--dark-gray);
+            font-size: 24px;
+        }
+    }
+}
