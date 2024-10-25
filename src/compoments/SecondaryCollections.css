@@ -1,0 +1,42 @@
+.secondary-collections {
+  text-align: center;
+  padding: 100px 0;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: center;
+  width: 712px;
+}
+
+.collection-list {
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+  list-style-type: none;
+  width: 100%;
+}
+
+.collection-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.collection-item img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+

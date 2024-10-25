@@ -1,19 +1,17 @@
-import Section from './compoments/Section';
+import React from "react";
+import MainCollections from './compoments/MainCollections';
+import SecondaryCollections from './compoments/SecondaryCollections';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Section 
-        title="Coleções em destaque" 
-        titleAlign="center"
-      >
-        <img src="/collection-1.png" alt="Collection 1" />
-        <img src="/collection-2.png" alt="Collection 2" />
-        <img src="/collection-3.png" alt="Collection 3" />
-      </Section>
+      <MainCollections />
+      <SecondaryCollections />
     </div>
   );
 }
 
 export default App;
+
 
