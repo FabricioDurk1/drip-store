@@ -1,17 +1,22 @@
 import './App.css';
 import Section from "./components/Section";
 import "primeflex/primeflex.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import productData from "./assets/productlist.json";
 import ProductList from './components/ProductList';
+import Cabecalho from './components/Cabecalho';
 
 const App = () => {
   return ( 
-    <Section
-      title={"Produtos em alta"}
-      link={"https://redirect.link"}
-    >
-      <ProductList products={productData} />
-    </Section>
+    <>
+      <Cabecalho/>
+      <Section
+        title={"Produtos em alta"}
+        link={"https://redirect.link"}
+      >
+        <ProductList products={productData} />
+      </Section>
+    </>
    );
 }
  
