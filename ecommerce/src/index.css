@@ -78,6 +78,7 @@ button:focus-visible {
   --tertiary: #991956;
 }
 
+
 body{
-  background-color: var(--light-gray-3);
+  background-color: #F9F8FE;
 }

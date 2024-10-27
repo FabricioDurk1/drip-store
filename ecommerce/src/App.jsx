@@ -1,7 +1,6 @@
 import './App.css';
 import Section from "./components/Section";
 import "primeflex/primeflex.css";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import productData from "./assets/productlist.json";
 import ProductList from './components/ProductList';
 import Cabecalho from './components/Cabecalho';
