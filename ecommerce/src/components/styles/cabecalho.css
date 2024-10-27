@@ -1,16 +1,15 @@
 .header-menu{
     margin: auto;
     display: flex;
-    justify-content: space-around;
     align-items: center;
     padding: 42px 100px 0;
-    gap: 10px;
+    gap: 50px;
 
     .input-group{
         width: 50%;
 
         .form-control{
-            background-color: var(--ligth-gray-3);
+            background-color: var(--light-gray-3);
         }
     }
 
@@ -22,16 +21,16 @@
 
     .btn{
         background: var(--primary);
-        color: var(--ligth-gray-3);
+        color: var(--light-gray-3);
     }
 
 }
 
-.nav-menu{
+.menu-options{
     display: flex;
     list-style: none;
     gap: 50px;
-    padding: 30px 100px 0;
+    padding: 30px 100px;
     
     a{
         text-decoration: none;

@@ -1,9 +1,9 @@
-import './App.css';
 import Section from "./components/Section";
 import "primeflex/primeflex.css";
+import Cabecalho from './components/Cabecalho';
 import productData from "./assets/productlist.json";
 import ProductList from './components/ProductList';
-import Cabecalho from './components/Cabecalho';
+import './App.css';
 
 const App = () => {
   return ( 

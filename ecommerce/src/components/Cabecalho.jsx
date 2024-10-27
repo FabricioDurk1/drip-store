@@ -20,7 +20,7 @@ const Cabecalho = () => {
 
                 </div>
                 <div className="menu">
-                    <ul className="nav-menu">
+                    <ul className="menu-options">
                         <li><a href="">Home</a></li>
                         <li><a href="">Produtos</a></li>
                         <li><a href="">Categorias</a></li>
