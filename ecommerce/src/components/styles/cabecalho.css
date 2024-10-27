@@ -1,17 +1,4 @@
-:root{
-    --ligth-gray-3: #F7F7FC;
-    --primary: #C92071;
-    --dark-gray-2: #474747;
-    --ligth-gray: #F5F5F5;
-}
-
-
-body{
-    background: var(--ligth-gray-3);
-    margin: 0;
-}
-
-.header{
+.header-menu{
     margin: auto;
     display: flex;
     justify-content: space-around;
@@ -40,10 +27,14 @@ body{
 
 }
 
+.menu{
+    margin-bottom: 16px;
+}
+
 .nav-menu{
     display: flex;
-    gap: 50px;
     list-style: none;
+    gap: 50px;
     padding: 30px 100px 0;
     
     a{
@@ -55,9 +46,4 @@ body{
         font-weight: bold;
         color:var(--primary);
     }
-}
-
-.gallery{
-    margin: auto;
-    background: var(--ligth-gray-3);
 }
