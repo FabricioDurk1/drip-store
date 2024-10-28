@@ -73,11 +73,12 @@ button:focus-visible {
   --light-gray: #8F8F8F;
   --light-gray-2: #CCCCCC;
   --light-gray-3: #f5f5f5;
-  
   --primary: #C92071;
   --secondary: #B5B6F2;
   --tertiary: #991956;
+}
 
 
-  background-color: var(--light-gray-3);
+body{
+  background-color: #F9F8FE;
 }
