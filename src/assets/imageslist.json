@@ -1,0 +1,15 @@
+[
+    {
+        "id": 1,
+        "src": "./images/product.svg"
+    },
+    {
+        "id": 2,
+        "src": "./images/product1.svg"
+    },
+    {
+        "id": 3,
+        "src": "./images/product.svg"
+    }
+
+]

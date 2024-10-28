@@ -1,6 +1,6 @@
 import React from "react";
-import MainCollections from './compoments/MainCollections';
-import SecondaryCollections from './compoments/SecondaryCollections';
+import MainCollections from './components/MainCollections';
+import SecondaryCollections from './components/SecondaryCollections';
 import './App.css';
 
 function App() {
