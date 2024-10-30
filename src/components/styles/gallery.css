@@ -15,11 +15,17 @@
 
 .banner-carousel{
   .text-content {
-    flex: 1 ;
+    flex: 1;
     padding: 20px;
   }
   
   .image-content {
       flex: 1;
+
+      .ornament{
+        left: 80%;
+        top: 10%;
+        position: absolute;
+      }
   }
 }
