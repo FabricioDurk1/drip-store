@@ -58,8 +58,17 @@ const Header = () => {
                             </li>
                         </ul>
                     </div>
+                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul className="menu-options navbar-nav">
+                            <li className="nav-item"><a href="">Produtos</a></li>
+                            <li className="nav-item"><a href="">Categorias</a></li>
+                            <li className="nav-item"><a href="">Home</a></li>
+                            <li className="nav-item"><a href="">Meus pedidos</a></li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
+            
 
 
      );
