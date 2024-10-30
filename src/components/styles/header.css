@@ -1,3 +1,11 @@
+#navbarSupportedContent{
+    gap: 50px;
+
+    .navbar-nav{
+        justify-content: space-around;
+    }
+}
+
 .header-menu{
     margin: auto;
     display: flex;
