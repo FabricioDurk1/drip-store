@@ -10,6 +10,10 @@
     {
         "id": 3,
         "src": "./images/product.svg"
+    },
+    {
+        "id": 4,
+        "src": "./images/product.svg"
     }
 
 ]
