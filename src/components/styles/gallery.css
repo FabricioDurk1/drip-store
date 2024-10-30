@@ -13,19 +13,17 @@
   background-color: var(--primary) !important;
 }
 
-.banner-carousel{
-  .text-content {
-    flex: 1;
-    padding: 20px;
-  }
-  
-  .image-content {
-      flex: 1;
+.text-content{
+  padding: 10%;
 
-      .ornament{
-        left: 80%;
-        top: 10%;
-        position: absolute;
-      }
+  .see-offer{
+    color: var(--light-gray-3);
+    background-color: var(--primary);
   }
+}
+
+.image-content .ornament{
+  left: 80%;
+  top: 10%;
+  position: absolute;
 }
