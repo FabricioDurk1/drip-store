@@ -7,6 +7,19 @@
     }
 }
 
+.navbar-header {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar-second-line {
+    text-align: center;
+}
+
+.menu-options .nav-item a {
+    padding: 0 10px;
+}
+
 .header-menu{
     /* margin: auto !important; */
     /* display: flex !important; */
