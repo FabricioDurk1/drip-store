@@ -34,7 +34,7 @@ export const Footer = () => {
     <footer className="footer">
       <div className="footer-container">
         <div className="footer-main">
-          <Logomarca />
+          <Logomarca imagem="/images/logo-footer.svg" style={{ filter: 'brightness(0) invert(1)'}}/>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore.</p>
           <div className="social-icons">
             <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">

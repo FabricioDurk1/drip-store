@@ -1,6 +1,6 @@
-const Logomarca = () => {
+const Logomarca = ({imagem, style}) => {
   return (
-    <img src="/images/logo-footer.svg" alt="Logomarca" style={{ filter: 'brightness(0) invert(1)' }} />
+    <img src={imagem} alt="Logomarca" style={style}/>
   );
 };
 
