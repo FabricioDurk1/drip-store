@@ -1,25 +1,29 @@
+.carousel-indicators button {
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50%;
+  background-color: var(--dark-gray-3) !important;
+}
+
 .carousel-inner{
-    position: relative;
+  background-color: var(--light-gray-3) !important;
 }
 
-.banner-carousel{
-    position: absolute;
-    top: 30px;
-    left: 30px;
+.carousel-indicators .active {
+  background-color: var(--primary) !important;
 }
 
-.carousel-dot {
-    width: 12px;
-    height: 24px;
-    border-radius: 50%;
-    background-color: #CCCCCC; 
-    margin: 0 10px; 
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s ease; 
+.text-content{
+  padding: 10%;
+
+  .see-offer{
+    color: var(--light-gray-3);
+    background-color: var(--primary);
   }
-  
-  .carousel-dot.active {
-    background-color: #C92071; 
-  }
-  
+}
+
+.image-content .ornament{
+  left: 80%;
+  top: 10%;
+  position: absolute;
+}

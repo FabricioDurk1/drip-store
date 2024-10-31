@@ -1,35 +1,36 @@
+import Carousel from 'react-bootstrap/Carousel';
 import './styles/gallery.css';
 
-const Gallery = ({imagesList}) => {
+const Gallery = ({imagesList, width, height}) => {
     return ( 
         <>
-            <div id="carouselExampleIndicators" className="carousel slide">
-                <div className="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="carousel-dot active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" className="carousel-dot" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" className="carousel-dot" aria-label="Slide 3"></button>
+        <div className="banner-carousel">
+            <div className="row m-0" >
+                <div className="col-4 d-flex align-items-center text-start">
+                    <div className="text-content">
+                        <p className='title-text'>Melhores ofertas personalizadas</p>
+                        <h1 className='promo-text'>Queima de<br/>stoque Nike🔥</h1>
+                        <p className='description-text text-start'>Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.</p>
+                        <button className='see-offer btn'>Ver Ofertas</button>
+                    </div>
                 </div>
-                <div className="carousel-inner">
-                    {imagesList.map((image) =>(
-                        <div className={`carousel-item ${image.id == 1 ? 'carousel-item active' : '' }`} key={image.id}>
-                            <div className="banner-carousel">
-                                <p>Melhores ofertas personalizadas</p>
-                                <h1>Queima de estoque</h1>
-                            </div>
-                            <img src={image.src} className="d-block" width="auto" height="320px" alt="..."/>
-                        </div>
-                    ))}
+                <div className="col-8 p-0">
+                    <Carousel interval={null}>
+                        {imagesList.map((image, index)=>(
+                            <Carousel.Item key={index}>
+                                <div className="image-content overflow-hidden">
+                                    <div className="ornament">
+                                        <img src="./images/ornament11.svg" alt="ornament" width="140px" height="140px"/>
+                                    </div>
+                                    <img src={image.src} alt={`Slide ${index}`} width={width} height={height}/>
+                                </div>
+                            </Carousel.Item>
+                        ))}
+                    </Carousel>
                 </div>
-                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Previous</span>
-                </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Next</span>
-                </button>
             </div>
-        </>
+        </div>
+        </> 
      );
 }
  

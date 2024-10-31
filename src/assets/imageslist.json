@@ -1,15 +1,35 @@
 [
     {
         "id": 1,
-        "src": "./images/product.svg"
+        "src": "./images/home-slide-1.jpeg"
     },
     {
         "id": 2,
-        "src": "./images/product1.svg"
+        "src": "./images/home-slide-2.jpeg"
     },
     {
         "id": 3,
-        "src": "./images/product.svg"
+        "src": "./images/home-slide-3.jpeg"
+    },
+    {
+        "id": 4,
+        "src": "./images/home-slide-4.jpeg"
+    },
+    {
+        "id": 5,
+        "src": "./images/home-slide-5.jpeg"
+    },
+    {
+        "id": 6,
+        "src": "./images/home-slide-6.jpeg"
+    },
+    {
+        "id": 7,
+        "src": "./images/home-slide-7.jpeg"
+    },
+    {
+        "id": 8,
+        "src": "./images/home-slide-8.jpeg"
     }
 
 ]

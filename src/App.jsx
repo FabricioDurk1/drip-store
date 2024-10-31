@@ -1,6 +1,6 @@
 import MainCollections from './components/MainCollections';
 import SecondaryCollections from './components/SecondaryCollections';
-import Cabecalho from './components/Cabecalho';
+import Header from './components/Header';
 import productData from "./assets/productlist.json";
 import imagesData from './assets/imageslist.json';
 import ProductList from './components/ProductList';
@@ -16,8 +16,11 @@ import './App.css';
 const App = () =>{
   return (
     <div className="App">
-      <Cabecalho/>
-      <Gallery imagesList={imagesData}/>
+      <Header/>
+      <Gallery
+        width={1440}
+        height={681}
+        imagesList={imagesData}/>
       <MainCollections />
       <SecondaryCollections />
       <Section
