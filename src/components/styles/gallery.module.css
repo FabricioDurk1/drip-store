@@ -1,0 +1,29 @@
+.textContent{
+  padding: 10%;
+
+  .titleText{
+    color: var(--warning);
+    font-size: 16px;
+  }
+
+  .promoText{
+    color: var(--dark-gray-2);
+    font-size: 64px;
+  }
+
+  .descriptionText{
+    color: var(--dark-gray-2);
+    font-size: 18px;
+  }
+
+  .seeOffer{
+    color: var(--light-gray-3);
+    background-color: var(--primary);
+  }
+}
+
+.imageContent .ornament{
+  left: 80%;
+  top: 10%;
+  position: absolute;
+}

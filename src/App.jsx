@@ -10,6 +10,7 @@ import "primeflex/primeflex.css";
 import Footer from './components/Footer';
 import './components/Footer.css';
 import './App.css';
+import SpecialOffer from './components/SpecialOffer';
 
 
 
@@ -29,6 +30,7 @@ const App = () =>{
       >
         <ProductList products={productData} />
       </Section>
+      <SpecialOffer/>
       <Footer/>
     </div>
   );

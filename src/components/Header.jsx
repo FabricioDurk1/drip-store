@@ -47,7 +47,7 @@ const Header = () => {
                                     <img src="./images/lupa.svg" alt="Ícone de busca" width="20px" height="20px"/>
                                 </span>
                             </div>
-                            <ul className="navbar-nav align-items-center">
+                            <ul className="navbar-nav align-items-center" >
                                 <li className="nav-item">
                                     <a className="cadastro" href="#">Cadastre-se</a>
                                 </li>
@@ -60,7 +60,7 @@ const Header = () => {
                             </ul>
                         </div>
                         <div className="menu-bottom">
-                            <ul className="menu-options navbar-nav">
+                            <ul className="menu-options navbar-nav" id="navbarSupportedContent">
                                 <li className="nav-item"><a href="">Produtos</a></li>
                                 <li className="nav-item"><a href="">Categorias</a></li>
                                 <li className="nav-item"><a href="">Home</a></li>
