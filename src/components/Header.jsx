@@ -1,8 +1,10 @@
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 import Logomarca from './Logomarca';
 import './styles/header.css';
 
 const Header = () => {
+    const location = useLocation();
+
     return (
             <>
             <nav className="navbar navbar-expand-lg bg-white header-menu">
@@ -33,10 +35,10 @@ const Header = () => {
                                 </li>
                             </ul>
                         </div>
-                        <div className="menu-bottom">
+                        <div className="menu-bottom d-flex">
                             <ul className="menu-options navbar-nav" id="navbarSupportedContent">
-                                <li className="nav-item"><Link to={"/"}>Home</Link></li>
-                                <li className="nav-item"><Link to={"/produtos"}>Produtos</Link></li>
+                                <li className={`nav-item ${location.pathname === "/" ? "active" : ""}`}><Link to={"/"}>Home</Link></li>
+                                <li className={`nav-item ${location.pathname === "/produtos" ? "active" : ""}`}><Link to={"/produtos"}>Produtos</Link></li>
                                 <li className="nav-item"><a href="">Categorias</a></li>
                                 <li className="nav-item"><a href="">Meus pedidos</a></li>
                             </ul>

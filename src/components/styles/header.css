@@ -1,23 +1,19 @@
 #navbarSupportedContent{
     gap: 10%;
-    justify-content: center !important;
+    /* justify-content: center !important; */
 
     .navbar-nav li{
         margin-right: 50px !important;
     }
 }
 
-.navbar-header {
+/* .navbar-header {
     display: flex;
     flex-wrap: wrap;
-}
+} */
 
 .navbar-second-line {
     text-align: center;
-}
-
-.menu-options .nav-item a {
-    padding: 0 10px;
 }
 
 .header-menu{
@@ -48,21 +44,24 @@
 }
 
 .menu-options{
-    display: flex;
     list-style: none;
-    gap: 50px;
     padding: 30px 100px;
-    margin: 0;
+    width: 100%;
     
     a{
         text-decoration: none;
         color: var(--dark-gray-2);
     }
 
-    a:hover{
+    /* a:hover{
         font-weight: bold;
         color:var(--primary);
-    }
+    } */
+}
+
+.menu-options .nav-item .active {
+    font-weight: bold;
+    color: #C92071 !important;
 }
 
 
