@@ -1,0 +1,45 @@
+.secondaryCollections {
+  text-align: center;
+  padding: 2% 10%;
+
+}
+
+.collectionList{
+  justify-content: space-evenly;
+  padding: 0 100px;
+}
+
+.collectionItem{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.borderCollectionItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 104px;
+  height: 104px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+
+  img{
+    max-width: 100%;
+    width: 64px;
+    height: 64px;
+    object-fit: contain;
+  }
+}
+
+
+
+
+
+
+
+
+
+

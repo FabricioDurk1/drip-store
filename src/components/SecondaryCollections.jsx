@@ -1,5 +1,5 @@
 import React from 'react';
-import "./SecondaryCollections.css";
+import styles from "./SecondaryCollections.module.css";
 
 const SecondaryCollections = () => {
   const newCollections = [
@@ -11,12 +11,14 @@ const SecondaryCollections = () => {
   ];
 
   return (
-    <section className="secondary-collections">
+    <section className={styles.secondaryCollections}>
       <h2>Coleções em destaque</h2>
-      <ul className="collection-list">
+      <ul className={styles.collectionList}>
         {newCollections.map((item, index) => (
-          <li key={index} className="collection-item">
-            <img src={item.image} alt={item.title} />
+          <li key={index} className={styles.collectionItem}>
+            <div className={styles.borderCollectionItem}>
+              <img src={item.image} alt={item.title} />
+            </div>
             <p>{item.title}</p>
           </li>
         ))}
