@@ -3,11 +3,11 @@ import styles from "./SecondaryCollections.module.css";
 
 const SecondaryCollections = () => {
   const newCollections = [
-    { image: '/camisa-1.jpeg', title: 'Camisetas' },
-    { image: '/calça-2.jpeg', title: 'Calças' },
-    { image: '/bone-3.jpeg', title: 'Bonés' },
-    { image: '/fone-4.jpeg', title: 'Headphones' },
-    { image: '/sapato-5.jpeg', title: 'Tênis' },
+    { "id":1 , image: '/images/camisa-1.svg', title: 'Camisetas' },
+    { "id":2 , image: '/images/calca-2.svg', title: 'Calças' },
+    { "id":3 , image: '/images/bone-3.svg', title: 'Bonés' },
+    { "id":4 , image: '/images/fone-4.svg', title: 'Headphones' },
+    { "id":5 , image: '/images/sapato-5.svg', title: 'Tênis' },
   ];
 
   return (
