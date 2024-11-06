@@ -1,19 +1,26 @@
+.bannerCarousel{
+  background-color: var(--light-gray-3);
+}
+
 .textContent{
   padding: 10%;
 
   .titleText{
     color: var(--warning);
-    font-size: 16px;
+    font-size: 1rem;
   }
 
   .promoText{
     color: var(--dark-gray-2);
-    font-size: 64px;
+    font-size: 4rem;
+    span{
+      text-wrap: nowrap;
+    }
   }
 
   .descriptionText{
     color: var(--dark-gray-2);
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 
   .seeOffer{

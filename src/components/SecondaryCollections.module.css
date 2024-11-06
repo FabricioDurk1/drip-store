@@ -1,12 +1,13 @@
 .secondaryCollections {
-  text-align: center;
-  padding: 2% 10%;
+  padding: 5% 10%;
 
 }
 
 .collectionList{
-  justify-content: space-evenly;
-  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
 }
 
 .collectionItem{
@@ -14,23 +15,26 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 10px 0;
+
+  p{
+    font-size: 1em;
+  }
 }
 
 .borderCollectionItem {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 104px;
-  height: 104px;
+  width: 10vw;
+  height: 10vw;
   border-radius: 50%;
   margin-bottom: 10px;
   background-color: white;
 
   img{
     max-width: 100%;
-    width: 64px;
-    height: 64px;
+    width: 50%;
+    height: auto;
     object-fit: contain;
   }
 }

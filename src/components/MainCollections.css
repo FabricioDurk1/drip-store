@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
+  padding: 2%;
 }
 
 .collections-title {
@@ -23,13 +24,13 @@
 .main-collections .collection-item img {
   width: 100%;
   height: auto;
-  border-radius: 10px !important; /* Garante que as imagens fiquem sem bordas arredondadas */
+  border-radius: 10px !important;
 }
 
 .collection-item {
   width: 30%;
   position: relative;
-  overflow: hidden; /* Garante que os elementos dentro fiquem contidos */
+  overflow: hidden;
 }
 
 .discount-tag {

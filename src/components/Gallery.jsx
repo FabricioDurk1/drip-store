@@ -28,7 +28,7 @@ const Gallery = ({imagesList, width, height}) => {
                 <div className="col-4 d-flex align-items-center text-start">
                     <div className={styles.textContent}>
                         <h1 className={styles.titleText}>Melhores ofertas personalizadas</h1>
-                        <h2 className={styles.promoText}>Queima de<br/>stoque Nike🔥</h2>
+                        <h2 className={styles.promoText}>Queima de<br/><span>stoque Nike🔥</span></h2>
                         <p className={`${styles.descriptionText} text-start`}>Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.</p>
                         <button className={`${styles.seeOffer} btn`}>Ver Ofertas</button>
                     </div>
