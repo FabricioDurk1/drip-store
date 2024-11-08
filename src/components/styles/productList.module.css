@@ -4,6 +4,14 @@
   justify-content: center;
 } */
 
+.linkCard{
+  text-decoration: none;
+}
+
+.gridList{
+  justify-content: space-around;
+}
+
 .discountCard{
   position: absolute;
   top: 10px;

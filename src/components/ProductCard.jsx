@@ -1,20 +1,20 @@
-import './styles/productCard.css';
+import styles from './styles/productCard.module.css';
 
 const ProductCard = ({image, description, name, price, priceDiscount, children}) => {
     return ( 
-        <div className="card-border">
-            <div className="image-border">
+        <div className={styles.cardBorder}>
+            <div className={styles.imageBorder}>
                 {children}
                 <img src={image} width="292" height="321" alt="" /> 
             </div>
-            <div className="caption">
-                <p className='description'>{description}</p>
+            <div className={styles.caption}>
+                <p className={styles.description}>{description}</p>
                 <h1>{name}</h1>
-                <ul>
-                    <li className='price'>
-                        <span className={`price ${priceDiscount ? 'price-with-discount' : ''}`}>{price}</span>
+                <ul className='d-flex'>
+                    <li className={styles.price}>
+                        <span className={`${styles.price} ${priceDiscount ? styles.priceWithDiscount : ''}`}>{price}</span>
                     </li>
-                    <li className='priceDiscount'>{priceDiscount}</li>
+                    <li className={styles.priceDiscount}>{priceDiscount}</li>
                 </ul>
             </div>
         </div>

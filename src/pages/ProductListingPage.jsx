@@ -1,12 +1,14 @@
 import ProductList from '../components/ProductList';
 import FilterGroup from '../components/FilterGroup'; // Importe o componente
 import productData from "../assets/productlist.json";
+import productMarcas from '../assets/productMarcas.json';
+import productCategoria from '../assets/productCategoria.json';
 
 const ProductListingPage = () => {
     return ( 
         <>
-            <div className="container">
-                <div className="row">
+            <div className="d-flex">
+                <div className="row m-0">
                     <div className="col-3">
                         <h2>Filtrar por</h2>
                         <hr />
@@ -15,24 +17,13 @@ const ProductListingPage = () => {
                         <FilterGroup
                             title="Marca"
                             inputType="checkbox"
-                            options={[
-                                { text: "Adidas" },
-                                { text: "Calenciaga" },
-                                { text: "K-Swiss" },
-                                { text: "Nike" },
-                                { text: "Puma" }
-                            ]}
+                            options={productMarcas}
                         />
 
                         <FilterGroup
                             title="Categoria"
                             inputType="checkbox"
-                            options={[
-                                { text: "Esporte e lazer" },
-                                { text: "Casual" },
-                                { text: "Utilitário" },
-                                { text: "Corrida" }
-                            ]}
+                            options={productCategoria}
                         />
 
                         <FilterGroup
@@ -55,7 +46,7 @@ const ProductListingPage = () => {
                         />
                     </div>
 
-                    <div className="col-9">
+                    <div className="col">
                         <ProductList products={productData} />
                     </div>
                 </div>

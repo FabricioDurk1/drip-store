@@ -1,4 +1,4 @@
-.card-border{
+.cardBorder{
     width: 292px;
     height: 439px;
     margin: 0;
@@ -6,7 +6,7 @@
 
 }
 
-.image-border{
+.imageBorder{
     position: relative;
     background-color: white;
     width: 292px;
@@ -36,13 +36,14 @@
         padding: 0;
         justify-self: start;
         gap: 5px;
+        list-style-type: none;
 
         .price {
             color: var(--dark-gray);
             font-size: 24px;
         }
 
-        .price-with-discount{
+        .priceWithDiscount{
             color:var(--light-gray);
             text-decoration: line-through;
         }

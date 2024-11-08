@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "./SecondaryCollections.module.css";
+import styles from "./styles/SecondaryCollections.module.css";
 
 const SecondaryCollections = () => {
   const newCollections = [

@@ -1,0 +1,14 @@
+[
+    {   "id":1,
+        "text": "Esporte e lazer"
+    },
+    {   "id":2,
+        "text": "Casual"
+    },
+    {   "id":3,
+        "text": "Utilitário"
+    },
+    {   "id":4,
+        "text": "Corrida"
+    }
+]
