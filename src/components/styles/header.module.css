@@ -1,0 +1,53 @@
+/* anterior */
+/* menu top */
+.headerMenu{
+    display: flex;
+    flex-direction: column;
+    padding: 2% 4% !important;
+}
+
+.menuTop , .menuTopOptions, .menuTopLinks, .menuBottom, .menuBottomOptions{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.searchGroup .searchInput{
+    background-color: var(--light-gray-3);
+}
+
+.menuTopLinks{
+    list-style: none;
+}
+
+.menuTopLinks .cadastro{
+    color: var(--dark-gray-2);
+    text-wrap: nowrap;
+}
+
+.menuTopLinks .btnSubmit{
+    background: var(--primary);
+    color: var(--light-gray-3);
+}
+
+
+/* menu bottom */
+
+.menuBottomOptions{
+    justify-content: start;
+    list-style: none;
+    gap: 10px;
+    
+    a{
+        text-decoration: none;
+        color: var(--dark-gray-2);
+    }
+
+}
+
+
+
+
