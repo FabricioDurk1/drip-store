@@ -33,7 +33,7 @@ const HomePage = () => {
         title={"Produtos em alta"}
         link={"https://redirect.link"}
       >
-        <ProductList products={productData} />
+        <ProductList products={productData} limit={8} />
       </Section>
       <SpecialOffer/>
     </>
