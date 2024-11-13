@@ -49,7 +49,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className={`${styles.menuBottom}`}>
-                <ul className={`${styles.navList}`}>
+                <ul className={`${styles.navList} ${isActive ? styles.active : ''}`}>
                     <li className={`${location.pathname === "/" ? styles.active : ""}`}>
                         <Link to={"/"} className={styles.navLink}>Home</Link>
                     </li>

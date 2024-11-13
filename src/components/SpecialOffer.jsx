@@ -5,7 +5,7 @@ const SpecialOffer = () => {
         <>
             <div className={`${styles.cardSpecial} container-fluid justify-content-center`}>
                 <div className="row  m-0">
-                    <div className="col d-flex justify-content-end">
+                    <div className={`${styles.imgContent} col d-flex`}>
                         <div className={styles.circle}>
                             <img src="./images/Laye.svg" height={"330px"} alt="" />
                         </div>
