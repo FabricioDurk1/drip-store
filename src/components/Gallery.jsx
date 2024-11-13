@@ -27,31 +27,21 @@ const CustomCarousel = styled.div `
 const Gallery = ({imagesList, width, height}) => {
     return ( 
         <>
-        <div className={styles.bannerCarousel}>
-            <div className="d-flex align-items-center">
-                <div className={styles.textContent}>
-                    <h1 className={styles.titleText}>Melhores ofertas personalizadas</h1>
-                    <h2 className={styles.promoText}>Queima de<br/><span>stoque Nike🔥</span></h2>
-                    <p className={`${styles.descriptionText}`}>Consequat culpa exercitation mollit nisi excepteur do do tempor laboris eiusmod irure consectetur.</p>
-                    <button className={`${styles.seeOffer} btn`}>Ver Ofertas</button>
-                </div>
-            </div>
-            <div className={`${styles.containerCarousel}d-flex p-0`}>
-                <CustomCarousel>
-                    <Carousel interval={null}>
-                        {imagesList.map((image, index)=>(
-                            <Carousel.Item key={index}>
-                                <div className={`${styles.imageContent} overflow-hidden`}>
-                                    <div className={styles.ornament}>
-                                        <img src="./images/ornament11.svg" alt="ornament" width="140px" height="140px"/>
-                                    </div>
-                                    <img src={image.src} alt={`Slide ${index}`} width={width} height={height}/>
+        <div className={`${styles.containerCarousel}d-flex p-0`}>
+            <CustomCarousel>
+                <Carousel interval={null}>
+                    {imagesList.map((image, index)=>(
+                        <Carousel.Item key={index}>
+                            <div className={`${styles.imageContent} overflow-hidden`}>
+                                <div className={styles.ornament}>
+                                    <img src="./images/ornament11.svg" alt="ornament" width="140px" height="140px"/>
                                 </div>
-                            </Carousel.Item>
-                        ))}
-                    </Carousel>
-                </CustomCarousel>
-            </div>
+                                <img src={image.src} alt={`Slide ${index}`} width={width} height={height}/>
+                            </div>
+                        </Carousel.Item>
+                    ))}
+                </Carousel>
+            </CustomCarousel>
         </div>
         </> 
      );
