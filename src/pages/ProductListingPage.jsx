@@ -47,7 +47,7 @@ const ProductListingPage = () => {
                     </div>
 
                     <div className="col">
-                        <ProductList products={productData} />
+                        <ProductList products={productData} />    
                     </div>
                 </div>
             </div>

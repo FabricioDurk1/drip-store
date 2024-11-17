@@ -1,0 +1,108 @@
+/* BuyBox.css */
+.buybox {
+  padding: 20px;
+  border: 1px #e0e0e0;
+  border-radius: 8px;
+}
+
+.buybox h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.buybox p {
+  margin: 0px;
+  font-size: 14px;
+  color: #8F8F8F;
+  text-align: left;
+}
+
+.rating {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  gap: 8px;
+}
+
+.product-description h3 {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #8F8F8F;
+}
+
+
+.price {
+  font-size: 32px;
+  margin-top: 20px;
+  color: #474747;
+}
+
+.discounted-price {
+  font-size: 32px;
+  color: #474747;
+  font-weight: bold;
+}
+
+.original-price {
+  font-size: 16px;
+  color: #999;
+  text-decoration: line-through;
+  margin-left: 8px;
+}
+
+.description {
+  margin: 16px 0;
+  color: #474747;
+}
+
+.sizes, .colors {
+  margin-top: 16px;
+}
+
+.size-options, .color-options {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+
+.size-option {
+  width: 48px;
+  height: 48px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background: none;
+  cursor: pointer;
+}
+
+.size-option.selected {
+  background-color: #ff0066;
+  color: white;
+  border-color: #ff0066;
+}
+
+.color-option {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.color-option.selected {
+  border: 2px solid #FFFFFF;
+}
+
+.buy-button {
+  position: static;
+  width: 220px;
+  padding: 12px;
+  background-color: #FFB31F;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  margin: 0px;
+  margin-top: 16px;
+  cursor: pointer;
+}
