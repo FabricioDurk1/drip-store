@@ -1,0 +1,19 @@
+.galleryContent{
+    flex-basis: 50%;
+}
+
+.buyBoxContent{
+    flex-basis: 50%;
+}
+
+
+
+@media (max-width: 999px) {
+    .productView{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+    }
+}
