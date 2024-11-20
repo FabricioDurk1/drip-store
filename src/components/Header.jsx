@@ -21,7 +21,7 @@ const Header = () => {
                         <div className={styles.line3}></div>
                 </div>
                 <a className="navbar-brand" href="#">
-                    <Logomarca imagem={"./images/logo.svg"} />
+                    <Logomarca imagem={"/images/logo.svg"} />
                 </a>
                 <div className={`input-group ${styles.searchGroup}`}>
                     <input
@@ -32,7 +32,7 @@ const Header = () => {
                     />
                     <span className="input-group-text border-0">
                         <button className='btn m-0 p-0'>
-                                <img src="./images/lupa.svg" alt="Ícone de busca" width="20px" height="20px" />
+                                <img src="/images/lupa.svg" alt="Ícone de busca" width="20px" height="20px" />
                         </button>
                     </span>
                 </div>
@@ -44,7 +44,7 @@ const Header = () => {
                         <button className={`btn ${styles.btnSubmit}`} type="submit">Entrar</button>
                     </li>
                     <li className="nav-item">
-                        <img src="./images/cart.svg" alt="" />
+                        <img src="/images/cart.svg" alt="" />
                     </li>
                 </ul>
             </div>

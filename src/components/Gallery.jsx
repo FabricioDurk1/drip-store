@@ -34,7 +34,7 @@ const Gallery = ({imagesList, width, height}) => {
                         <Carousel.Item key={index}>
                             <div className={`${styles.imageContent} overflow-hidden`}>
                                 <div className={styles.ornament}>
-                                    <img src="./images/ornament11.svg" alt="ornament" width="140px" height="140px"/>
+                                    <img src="/images/ornament11.svg" alt="ornament" width="140px" height="140px"/>
                                 </div>
                                 <img src={image.src} alt={`Slide ${index}`} width={width} height={height}/>
                             </div>

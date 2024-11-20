@@ -12,7 +12,7 @@ const ProductCard = ({image, description, name, price, priceDiscount, children})
                 <h1>{name}</h1>
                 <ul className='d-flex'>
                     <li className={styles.price}>
-                        <span className={`${styles.price} ${priceDiscount ? styles.priceWithDiscount : ''}`}>{price}</span>
+                        <span className={`${styles.price} ${priceDiscount ? styles.priceWithDiscount : ''}`}>${price}</span>
                     </li>
                     <li className={styles.priceDiscount}>{priceDiscount}</li>
                 </ul>

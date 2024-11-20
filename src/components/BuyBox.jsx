@@ -31,7 +31,7 @@ const BuyBox = ({ name, category, brand, reference, stars, rating, price, priceD
             {/* Preços */}
             <div className="price">
                 <span className="discounted-price">R${price}</span>
-                {priceDiscount && <span className="original-price">R${priceDiscount}</span>}
+                {priceDiscount && <span className="original-price">{priceDiscount}</span>}
             </div>
 
             {/* Descrição */}
