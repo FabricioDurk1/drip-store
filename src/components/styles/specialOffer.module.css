@@ -1,0 +1,59 @@
+.cardSpecial{
+    width: 100%;
+    padding: 4% 0;
+    margin: 0;
+    background-color: white !important;
+}
+
+.circle{
+    width: 466px;
+    height: 466px;
+    border-radius: 50%;
+    background: linear-gradient(180deg, rgba(66, 0, 255, 0.25) -40.67%, rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgContent{
+    justify-content: end;
+}
+
+.circle img{
+    width: 100%;
+}
+
+.textContent{
+    padding: 0 20%;
+
+    .titleText{
+        color: var(--primary);
+        font-size: 14px;
+    }
+
+    .promoText{
+        color: var(--dark-gray-2);
+        font-size: 48px;
+    }
+
+    .descriptionText{
+        color: var(--dark-gray-2);
+        font-size: 16px;
+    }
+
+    .seeOffer{
+        color: var(--light-gray-3);
+        background-color: var(--primary);
+    }
+}
+
+@media (max-width: 999px){
+    .imgContent{
+        justify-content: center;
+    }
+
+    .circle{
+        height: 366px;
+    }
+    
+}

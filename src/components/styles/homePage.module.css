@@ -1,0 +1,65 @@
+.bannerCarousel{
+    display: flex;
+    gap: 20px;
+    background-color: var(--light-gray-3);
+}
+
+.textContent{
+    flex-basis: 40%;
+    width: 30vw;
+    padding: 2%;
+  
+    .titleText{
+      color: var(--warning);
+      font-size: 1.11vw;  /*(fonte:px / tela:px) x 100 = valor:vw */
+    }
+    
+    .promoText{
+      color: var(--dark-gray-2);
+      font-size: 4.44vw;
+      span{
+        text-wrap: nowrap;
+      }
+    }
+    
+    .descriptionText{
+      text-align: start;
+      color: var(--dark-gray-2);
+      font-size: 1.25vw;
+    }
+  
+    .seeOffer{
+      color: var(--light-gray-3);
+      background-color: var(--primary);
+    }
+}
+
+@media (max-width: 999px) {
+    .bannerCarousel{
+      display: flex;
+      flex-direction: column-reverse;
+    }
+  
+    .textContent{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      flex-basis: 100%;
+    }
+  
+    .titleText{
+      font-size: 3.58vw !important;  /*(fonte:px / tela:px) x 100 = valor:vw */
+    }
+    
+    .promoText{
+      font-size: 10.25vw !important;
+    }
+    
+    .descriptionText{
+      text-align: center !important;
+      font-size: 3.58vw !important; 
+    }
+  
+  }
+  
