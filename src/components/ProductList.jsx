@@ -7,8 +7,12 @@ const ProductList = ({products, limit}) => {
     return ( 
         <div className={`${styles.gridList} grid`}>
             {displayedProducts.map((product) =>(
-                <Link className={styles.linkCard} to={"/productDetails"}>
-                    <div className="col" key={product.id}>
+                <Link
+                    className={styles.linkCard}
+                    to={`/productDetails/${product.id}`}
+                    key={product.id}
+                >
+                    <div className="col">
                         <div className="text-center align-items-center p-0 border-round font-bold">
                             <ProductCard
                             image={product.image}

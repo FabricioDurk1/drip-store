@@ -8,7 +8,7 @@ const Section = ({title, link, children}) => {
         <section>
             <ul className={styles.textSection}>
                 <li className={styles.title}>{title}</li>
-                <li className={styles.showMore}><a href={link}>Ver todos<img src='./images/arrow24px.svg'/></a></li>                
+                <li className={styles.showMore}><a href={link}>Ver todos<img src='/images/arrow24px.svg'/></a></li>                
             </ul>
             <div className={styles.cardSection}>
                 {children}
